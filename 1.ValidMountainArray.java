@@ -20,3 +20,4 @@ class ValidMountainArray {
         return true;
     }
 }
+
