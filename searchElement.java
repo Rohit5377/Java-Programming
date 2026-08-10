@@ -1,6 +1,6 @@
 public class searchElement {
     public static void main(String[] args) {
-        int[] arr={1,2,3,4,5};
+        int[] arr={1,2,3,4,5,6};
         int left=0;
         int target=4;
         int right=arr.length-1;
