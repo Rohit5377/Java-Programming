@@ -9,7 +9,7 @@ class ValidMountainArray {
                 return false;
             }
             i++;
-        }
+        } 
         if(i==n-1) return false;
         for(int j=i;j<n-1;j++){
             if(arr[j]<=arr[j+1]){
