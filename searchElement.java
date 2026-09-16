@@ -6,7 +6,7 @@ public class searchElement {
         int right=arr.length-1;
         while(left<=right){
             int mid=left+(right-left)/2;
-            if(arr[mid]==target){
+            if(arr[mid]==target){ 
                 System.out.println(mid);
                 break;
             }else if(target>arr[left]){
