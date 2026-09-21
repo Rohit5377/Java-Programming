@@ -1,6 +1,6 @@
 class ValidMountainArray {
     public boolean validMountainArray(int[] arr) {
-        int i=0;
+        int i=0; 
         int n=arr.length;
         if(arr.length<3) return false; 
         if(arr[0]>=arr[1]) return false;
