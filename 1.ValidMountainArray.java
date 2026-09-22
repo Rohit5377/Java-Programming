@@ -5,7 +5,7 @@ class ValidMountainArray {
         if(arr.length<3) return false; 
         if(arr[0]>=arr[1]) return false;
         while(i+1<n && arr[i]<=arr[i+1]){
-            if(arr[i]==arr[i+1]){
+            if(arr[i]==arr[i+1]){ 
                 return false;
             }
             i++;
