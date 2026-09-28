@@ -11,7 +11,7 @@ class CretingLinkedList {
 
     public static void main(String[] args) {
         Node a= new Node(5);
-        Node b= new Node(6);
+        Node b= new Node(6); 
         Node c= new Node(3);
 
         a.next=b;// a ->b c
