@@ -7,7 +7,7 @@ class HashmapBasics {
         mp.put("aa",1);
         mp.put("bb",2);
         System.out.println(mp.get("aabb")); 
-
+ 
         //check key is present or not
         System.out.println(mp.containsKey("bb"));
 
