@@ -5,7 +5,7 @@ class HashmapBasics {
     public static void main(String[] args) {
         Map<String,Integer> mp= new HashMap<>();
         mp.put("aa",1);
-        mp.put("bb",2);
+        mp.put("bb",2); 
         System.out.println(mp.get("aabb")); 
  
         //check key is present or not
