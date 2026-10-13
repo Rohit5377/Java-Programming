@@ -2,7 +2,7 @@
     public  static class Node{
         int val;
         Node left;
-        Node right;
+        Node right; 
         Node(int val){
             this.val=val;
         }
