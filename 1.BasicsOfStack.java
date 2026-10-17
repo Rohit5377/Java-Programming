@@ -1,6 +1,6 @@
 import java.util.Stack;
  
-class BasicsOfStack {   
+class BasicsOfStack {    
     public static void main(String[] args) {
         Stack<Integer> st=new Stack<>();
         st.push(1);
