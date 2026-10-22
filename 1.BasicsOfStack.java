@@ -4,7 +4,7 @@ class BasicsOfStack {
     public static void main(String[] args) {
         Stack<Integer> st=new Stack<>();
         st.push(1); 
-        st.push(2);
+        st.push(2); 
         st.push(5);
         //print all elements of stack
         System.out.println(st);
