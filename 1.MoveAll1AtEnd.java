@@ -1,7 +1,7 @@
 class MoveAll1AtEnd {
     static void reverse(int[] arr){
         int i=0,j=arr.length-1;
-        while(i<j){
+        while(i<j){ 
             if(arr[i]==1 && arr[j]==0){
                 int temp=arr[i];
                 arr[i]=arr[j];
